@@ -1,0 +1,13 @@
+[tool.ruff]
+W = "E501"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+ignore = []
+lint.dummy-variable-rgx = "^_(_?[a-zA-Z0-9]+)?$"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
